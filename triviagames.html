@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Trivia Game!!</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="container" id="titlecontainer">
+			<div class="row" id="titlerow">
+				<div class="col-sm-8 col-sm-offset-2" id="titletheme">
+					<h1>AVENGERS<br>TRIVIA GAME!</h1>
+				</div>
+			</div>
+			<div class="row" id="gamebox">
+				<div class="col-sm-6 col-sm-offset-3" id="questions">
+					<h1 id="timer"></h1><br>
+					<h1 id="questionround"></h1>
+				</div>
+			</div>
+			<div class="row" id="gamebox2">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div id="scoreboard">
+						<h2 id="correctanswer"></h2><
+						<h2 id="incorrectanswer"></h2>
+						<h2 id="unanswered"></h2>
+					</div>
+					
+					<div id="answers">
+						<button type="button" class="btn btn-danger btn-lg btn-block click" id="answerround1"></button>
+						<button type="button" class="btn btn-danger btn-lg btn-block click" id="answerround2"></button>
+						<button type="button" class="btn btn-danger btn-lg btn-block click" id="answerround3"></button>
+						<button type="button" class="btn btn-danger btn-lg btn-block click" id="answerround4"></button>
+					</div>
+					<button type="button" class="btn btn-danger btn-lg btn-block" id="startbutton">START GAME</button>
+				</div>
+			</div>
+		</div>
+	</body>
+
+		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+		<script src="assets/triviagames.js"></script>
+</html>

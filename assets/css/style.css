@@ -1,0 +1,46 @@
+body {
+	background-image: url(../images/avengers2.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#titletheme {
+	text-align:center;
+	/*font-size:5em;*/
+}
+#titletheme h1{
+	font-size:5em;
+	font-family: 'Bevan', cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color:#b30000;
+	position:relative;
+	/*top:.14em;*/
+}
+#answers {
+	position:relative;
+	top:10em;
+}
+#startbutton {
+	overflow:auto;
+	font-family: 'Bevan', cursive;
+	position:relative;
+	top:5em;
+	height:2em;
+	font-size:5em;
+	background-color:transparent;
+	color:red;
+}
+#startgame:hover {
+	background-color:yellow;
+}
+#timer {
+	color:#b30000;
+	text-align:center;
+	font-family: 'Bevan', cursive;
+	font-size:3em;
+}
+#questionround{
+	color:#b30000;
+	text-align:center;
+	font-family: 'Bevan', cursive;
+	font-size:3em;
+}
